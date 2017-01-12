@@ -1,4 +1,13 @@
 {
+  "name": "test",
+  "version": "0.0.1",
+  "description": "Svelte about",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel",
+  "license": "ISC",
   "devDependencies": {
     "rollup": "^0.37.0",
     "rollup-plugin-svelte": "^1.2.0",

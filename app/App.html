@@ -2,15 +2,13 @@
 <Nested foo='{{foo}}'/>
 
 <script>
-	import Nested from './Nested.html';
-
+	import Nested from '../cpn/nested/Nested.html';
 	export default {
 		data () {
 			return {
 				foo: 'bar'
 			};
 		},
-
 		components: {
 			Nested
 		}
